@@ -1,6 +1,6 @@
 # Python Object-Oriented Programming (OOP) — Interview Preparation
 
-## 1. What is OOP?
+## <span style="color: red;">1. What is OOP?</span>
 
 - **OOP (Object-Oriented Programming)** is a programming paradigm that organizes code around objects and classes.
 - It helps make code reusable, modular, maintainable, and easier to manage.
@@ -13,12 +13,12 @@
 
 ---
 
-## 2. What is a Class and an Object?
+## <span style="color: red;">2. What is a Class and an Object?</span>
 
 - **Class:** A class is a blueprint for creating objects. It defines the attributes and methods that describe the data and behaviour of those objects.
 - **Object:** An object is an instance of a class. Multiple objects can be created from the same class, each having its own data while sharing the same structure and behaviour.
 
-### Example
+### <span style="color: mediumseagreen;">Example</span>
 
 In Python, `Car` can be a class, while `electric_car` and `petrol_car` are objects created from that class. Both objects share the same class structure but store different values for `fuel_type`.
 
@@ -33,19 +33,19 @@ petrol_car = Car("Petrol")
 
 ---
 
-## 3. What is a Constructor in Python?
+## <span style="color: red;">3. What is a Constructor in Python?</span>
 
 A constructor is used to initialize an object when it is created. In Python, the `__init__()` method initializes an object's attributes with the required values. It is called automatically when an object is created, helping the object start with its initial data.
 
-### `__init__()`
+### <span style="color: dodgerblue;">`__init__()`</span>
 - `__init__()` is a special method in Python that initializes an object's attributes.
 - It is automatically called when an object is created. Technically, it is an initializer, not the method that allocates memory/creates the object (`__new__()` creates it).
 
-### `self`
+### <span style="color: dodgerblue;">`self`</span>
 - `self` refers to the current instance (object) of the class.
 - It is used to access and assign that object's attributes and methods. Python passes the object as the first argument to an instance method automatically.
 
-### Code Example
+### <span style="color: mediumseagreen;">Code Example</span>
 
 ```python
 class Person:
@@ -58,25 +58,25 @@ print(person_details.name, person_details.age)
 # Output: Alan 22
 ```
 
-**Code Explanation:**
+<span style="color: dodgerblue;">**Code Explanation:**</span>
 - `__init__()` initializes the `name` and `age` attributes when `person_details` is created.
 - `self.name` and `self.age` store values in the current object, while `person_details` refers to that object.
 
 ---
 
-## 4. What is `self` in Python OOP?
+## <span style="color: red;">4. What is `self` in Python OOP?</span>
 
 `self` is a reference to the current object of a class. It is used to access the object's attributes and methods inside the class. In Python, `self` is passed automatically as the first argument when an instance method is called through an object. Although `self` is the standard naming convention, it is not a reserved keyword in Python.
 
 ---
 
-## 5. What is the Difference Between a Function and a Method?
+## <span style="color: red;">5. What is the Difference Between a Function and a Method?</span>
 
 - **Function:** A reusable block of code that performs a specific task. It is defined using the `def` keyword and can be called independently. It can accept arguments and return a result using the `return` statement.
 
 - **Method:** A function defined inside a class and associated with its objects or class. An instance method typically uses `self` to access the object's attributes and other methods. Like a function, it can also accept arguments and return a result.
 
-### Comparison Table
+### <span style="color: dodgerblue;">Comparison Table</span>
 
 | Feature | Function | Method |
 | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ print(person_details.name, person_details.age)
 | **First Argument** | Does not require an implicit first argument. | Instance methods take `self` as the first argument. |
 | **Association** | Not bound to any class or object. | Bound to a class or instance. |
 
-### Code Example
+### <span style="color: mediumseagreen;">Code Example</span>
 
 ```python
 def add_numbers(a, b):          # Standalone function
@@ -101,15 +101,15 @@ obj = Calculator()
 print(obj.multiply(10, 20))     # Method call via object (Output: 200)
 ```
 
-**Code Explanation:** `add_numbers()` is a standalone function that returns the sum of two numbers, whereas `multiply()` is a method defined inside the `Calculator` class that returns their product.
+<span style="color: dodgerblue;">**Code Explanation:**</span> `add_numbers()` is a standalone function that returns the sum of two numbers, whereas `multiply()` is a method defined inside the `Calculator` class that returns their product.
 
 ---
 
-## 6. What are Dunder Methods in Python?
+## <span style="color: red;">6. What are Dunder Methods in Python?</span>
 
 Dunder methods, also called **double underscore methods** or **magic methods**, are special methods in Python that begin and end with double underscores, such as `__init__()` and `__str__()`. They allow objects to define how they behave with built-in operations, such as object creation, string representation, comparisons, and arithmetic. Python automatically calls many of these methods when the corresponding operation is performed.
 
-### Top 10 Important Dunder Methods
+### <span style="color: dodgerblue;">Top 10 Important Dunder Methods</span>
 
 | Dunder Method | Use Case |
 | :--- | :--- |
@@ -126,7 +126,7 @@ Dunder methods, also called **double underscore methods** or **magic methods**, 
 
 ---
 
-## 7. How Does an Object Access Attributes?
+## <span style="color: red;">7. How Does an Object Access Attributes?</span>
 
 - An object accesses its attributes using **dot notation** (`.`).
 - We use the object name followed by a dot and the attribute name to get its value.
@@ -144,7 +144,7 @@ print(person_details.name)
 
 ---
 
-## 8. How Can an Object Create an Attribute Outside the Class?
+## <span style="color: red;">8. How Can an Object Create an Attribute Outside the Class?</span>
 
 - An object can create a new attribute outside the class dynamically using **dot notation and assignment**.
 - The new attribute belongs **only to that specific object** and is not automatically available on other objects of the same class.
@@ -162,3 +162,14 @@ person_details.age = 27
 print(person_details.age)
 # Output: 27
 ```
+
+
+
+
+encapsulation: 
+
+bundling data and method into a single unit. It is used protects your classes from accidental changes or deletions and promotes code reusability and maintainability
+
+    __variable = "" # private variable
+
+In Python nothing is too private, it is made for adults
