@@ -24,7 +24,9 @@ This repository is organized to take you from **Python fundamentals to interview
 
 ### Fundamentals
 
-* [Control Flow & Iteration](1.%20Fundamentals/Control%20Flow%20%26%20Iteration/)
+* [Data Structures](1.%20Fundamentals/Data%20Structures/)
+
+  * [List](1.%20Fundamentals/Data%20Structures/List/)
 * [Functions](1.%20Fundamentals/Functions/)
 * [Object Reference](1.%20Fundamentals/Object%20Reference/)
 * [Operators](1.%20Fundamentals/Operators/)
@@ -37,33 +39,33 @@ This repository is organized to take you from **Python fundamentals to interview
 * [Comprehensions](2.%20Intermediate/Comprehensions/)
 * [Special Functions](2.%20Intermediate/Special%20Functions/)
 
-  * [Closures](2.%20Intermediate/Special%20Functions/Closures/)
   * [Decorators](2.%20Intermediate/Special%20Functions/Decorators/)
   * [Generators](2.%20Intermediate/Special%20Functions/Generators/)
-  * [Iterators](2.%20Intermediate/Special%20Functions/Iterators/)
   * [Lambda](2.%20Intermediate/Special%20Functions/Lambda/)
-  * [Map, Filter, Reduce](2.%20Intermediate/Special%20Functions/Map,%20Filter,%20Reduce/)
+
+### OOPs
+
+* [OOPs](3.%20OOPs/)
 
 ### Problem Solvings
 
-* [Easy](5.%20Problem%20Solvings/Easy/)
+* [Easy](4.%20Problem%20Solvings/Easy/)
 
-  * [Anagram](5.%20Problem%20Solvings/Easy/Anagram/)
-  * [Data Conversions](5.%20Problem%20Solvings/Easy/Data%20Conversions/)
-  * [Min & Max](5.%20Problem%20Solvings/Easy/Min%20%26%20Max/)
-  * [Odd or Even](5.%20Problem%20Solvings/Easy/Odd%20or%20Even/)
-  * [Palindrome](5.%20Problem%20Solvings/Easy/Palindrome/)
-  * [Prime Numbers](5.%20Problem%20Solvings/Easy/Prime%20Numbers/)
-  * [Sum of Digits](5.%20Problem%20Solvings/Easy/Sum%20of%20Digits/)
-  * [Swap Two Variables](5.%20Problem%20Solvings/Easy/Swap%20Two%20Variables/)
-* [Medium](5.%20Problem%20Solvings/Medium/)
+  * [Anagram](4.%20Problem%20Solvings/Easy/Anagram/)
+  * [Data Conversions](4.%20Problem%20Solvings/Easy/Data%20Conversions/)
+  * [Min & Max](4.%20Problem%20Solvings/Easy/Min%20%26%20Max/)
+  * [Odd or Even](4.%20Problem%20Solvings/Easy/Odd%20or%20Even/)
+  * [Palindrome](4.%20Problem%20Solvings/Easy/Palindrome/)
+  * [Prime Numbers](4.%20Problem%20Solvings/Easy/Prime%20Numbers/)
+  * [Sum of Digits](4.%20Problem%20Solvings/Easy/Sum%20of%20Digits/)
+  * [Swap Two Variables](4.%20Problem%20Solvings/Easy/Swap%20Two%20Variables/)
+* [Medium](4.%20Problem%20Solvings/Medium/)
 
-  * [Calenders](5.%20Problem%20Solvings/Medium/Calenders/)
-  * [Factorial](5.%20Problem%20Solvings/Medium/Factorial/)
-  * [Remove Duplicates from List](5.%20Problem%20Solvings/Medium/Remove%20Duplicates%20from%20List/)
-  * [Reverse a List](5.%20Problem%20Solvings/Medium/Reverse%20a%20List/)
-  * [Reverse a String](5.%20Problem%20Solvings/Medium/Reverse%20a%20String/)
-  * [Sort a List](5.%20Problem%20Solvings/Medium/Sort%20a%20List/)
+  * [Calenders](4.%20Problem%20Solvings/Medium/Calenders/)
+  * [Factorial](4.%20Problem%20Solvings/Medium/Factorial/)
+  * [Remove Duplicates from List](4.%20Problem%20Solvings/Medium/Remove%20Duplicates%20from%20List/)
+  * [Reverse a String](4.%20Problem%20Solvings/Medium/Reverse%20a%20String/)
+  * [Sort a List](4.%20Problem%20Solvings/Medium/Sort%20a%20List/)
 
 ---
 
